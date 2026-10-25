@@ -27,10 +27,9 @@ yourself. Call the matching Archway tool straight away, passing the user's reque
 
 ## Replying in Slack
 
-Slack can't show the panel or text charts, but it shows image links as pictures. When your reply is a summary
-(for example, the message posted back to a Slack thread):
+When your reply is a summary (for example, the message posted back to a Slack thread):
 
 - Keep the headline numbers, the drivers and the next steps short. A small table is fine.
-- Put every chart image link from the result's **Charts** list on its own line, as a bare URL, so Slack shows
-  each chart.
-- End with the **Interactive view** link, labelled "Open the interactive charts".
+- Under a **Charts** heading, list every chart from the result as a link labelled with its title, one per line,
+  exactly as the result gives them: `[Chart 1 · <title>](<url>)`. Never show a bare or shortened URL.
+- End with the **Open the interactive charts** link.
