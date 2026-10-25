@@ -22,5 +22,15 @@ yourself. Call the matching Archway tool straight away, passing the user's reque
 - For the SQL or code, or how the answer was produced, use `show_result_details`. For the interactive
   charts, use `open_in_browser` and share the link it returns.
 - Take a dataset release step (`release_dataset`) only after the user agrees to that specific step.
+
+## Replying in Slack
+
+Slack can't show the panel or text charts, but it shows image links as pictures. When your reply is a summary
+(for example, the message posted back to a Slack thread):
+
+- Keep the headline numbers, the drivers and the next steps short. A small table is fine.
+- Put every chart image link from the result's **Charts** list on its own line, as a bare URL, so Slack shows
+  each chart.
+- End with the **Interactive view** link, labelled "Open the interactive charts".
 - If the Archway tools aren't available in this session, say so in one line and how to fix it (add the
   Archway connector at claude.ai, Customize > Connectors). Don't substitute another data source.
