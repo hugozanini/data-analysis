@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agent-factory": {
+      "type": "http",
+      "url": "${ARCHWAY_MCP_URL}"
+    }
+  }
+}
